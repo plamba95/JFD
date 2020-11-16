@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.alert-absolute {
+	z-index: 10;
+    position: absolute;
+	left:50%;
+	top: 50px;
+	transform: translateX(-50%);
+}
+
+.blog-post-title {
+    font-size: 3.25em;
+}
+
+.blog-post-meta {
+    font-size: 0.75em;
+    margin-bottom: 20px;
+}
+
+.blog-post-meta > * {
+    margin-right: 10px;
+}
